@@ -3,7 +3,7 @@ version: '2'
 services:
   myapp:
     tty: true # Enables debugging capabilities when attached to this container.
-    image: 'bitnami/swift:4.0'
+    image: 'bitnami/swift:4'
     labels:
       kompose.service.type: nodeport
     ports:
