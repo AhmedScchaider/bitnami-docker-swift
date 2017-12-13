@@ -5,8 +5,8 @@ jobs:
     docker:
       - image: docker:17.06.0-ce-git
         environment:
-          RELEASE_SERIES_LIST: "3"
-          LATEST_STABLE: "3"
+          RELEASE_SERIES_LIST: "3,4"
+          LATEST_STABLE: "4"
           IMAGE_NAME: swift
           DOCKER_PROJECT: bitnami
           QUAY_PROJECT: bitnami
