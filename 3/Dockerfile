@@ -1,4 +1,4 @@
-FROM bitnami/minideb-extras:jessie-r22
+FROM bitnami/minideb-extras:jessie-r22-buildpack
 
 LABEL maintainer "Bitnami <containers@bitnami.com>"
 
