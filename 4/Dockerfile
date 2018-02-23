@@ -1,9 +1,9 @@
-FROM bitnami/minideb-extras:jessie-r22
+FROM bitnami/minideb-extras:jessie-r24
 
 LABEL maintainer "Bitnami <containers@bitnami.com>"
 
 ENV BITNAMI_APP_NAME=swift \
-    BITNAMI_IMAGE_VERSION=4.0.3-r0 \
+    BITNAMI_IMAGE_VERSION=4.0.3-r1 \
     PATH=/opt/bitnami/swift/bin:/opt/bitnami/python/bin:$PATH
 
 # System packages required
